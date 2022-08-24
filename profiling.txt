@@ -1,0 +1,1695 @@
+Iterative Deepening Search: Stack 0
+
+flip:3 flip:5 flip:4 flip:3 flip:2
+[1, 3, 5, 2, 4, 6]
+[5, 3, 1, 2, 4, 6]
+[4, 2, 1, 3, 5, 6]
+[3, 1, 2, 4, 5, 6]
+[2, 1, 3, 4, 5, 6]
+[1, 2, 3, 4, 5, 6]
+Path Cost: 5
+
+   15365 function calls (13069 primitive calls) in 0.008 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.008    0.008 <string>:1(<module>)
+       14    0.000    0.000    0.000    0.000 cp1252.py:18(encode)
+        2    0.000    0.000    0.000    0.000 enum.py:289(__call__)
+        1    0.000    0.000    0.000    0.000 enum.py:357(__iter__)
+       10    0.000    0.000    0.000    0.000 enum.py:358(<genexpr>)
+        2    0.000    0.000    0.000    0.000 enum.py:580(__new__)
+        9    0.000    0.000    0.000    0.000 enum.py:683(value)
+        1    0.000    0.000    0.000    0.000 enum.py:809(_missing_)
+        1    0.000    0.000    0.000    0.000 enum.py:816(_create_pseudo_member_)
+        1    0.000    0.000    0.000    0.000 enum.py:852(__and__)
+        1    0.000    0.000    0.000    0.000 enum.py:888(_decompose)
+        1    0.000    0.000    0.008    0.008 pancake.py:21(main)
+        1    0.000    0.000    0.000    0.000 pancake.py:213(print_path)
+        1    0.000    0.000    0.000    0.000 pancake.py:214(<listcomp>)
+     2292    0.001    0.000    0.003    0.000 pancake.py:42(possible_actions)
+     2292    0.002    0.000    0.002    0.000 pancake.py:46(<listcomp>)
+     2310    0.001    0.000    0.001    0.000 pancake.py:55(result)
+      461    0.000    0.000    0.002    0.000 pancake.py:65(expand)
+      461    0.001    0.000    0.001    0.000 pancake.py:69(<listcomp>)
+        1    0.000    0.000    0.007    0.007 pancake.py:79(iterative_deepening_wrapper)
+   2297/5    0.002    0.000    0.007    0.001 pancake.py:98(iterative_deepening)
+        1    0.000    0.000    0.000    0.000 re.py:233(findall)
+        1    0.000    0.000    0.000    0.000 re.py:289(_compile)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:249(_compile_charset)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:276(_optimize_charset)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:423(_simple)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:453(_get_iscased)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:461(_get_literal_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:492(_get_charset_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:536(_compile_info)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:595(isstring)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:598(_code)
+      2/1    0.000    0.000    0.000    0.000 sre_compile.py:71(_compile)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:759(compile)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:111(__init__)
+        4    0.000    0.000    0.000    0.000 sre_parse.py:160(__len__)
+        8    0.000    0.000    0.000    0.000 sre_parse.py:164(__getitem__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:168(__setitem__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:172(append)
+      2/1    0.000    0.000    0.000    0.000 sre_parse.py:174(getwidth)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:224(__init__)
+        3    0.000    0.000    0.000    0.000 sre_parse.py:233(__next)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:249(match)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:254(get)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:286(tell)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:355(_escape)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:435(_parse_sub)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:493(_parse)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:76(__init__)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:81(groups)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:921(fix_flags)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:937(parse)
+        9    0.000    0.000    0.000    0.000 types.py:171(__get__)
+        1    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFCB0E35C60}
+       14    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
+        1    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+        1    0.000    0.000    0.008    0.008 {built-in method builtins.exec}
+       17    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+5071/5069    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        5    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+        7    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+       19    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'findall' of 're.Pattern' objects}
+        2    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'sort' of 'list' objects}
+
+
+BFS: Stack 0
+flip:3 flip:5 flip:4 flip:3 flip:2
+[1, 3, 5, 2, 4, 6]
+[5, 3, 1, 2, 4, 6]
+[4, 2, 1, 3, 5, 6]
+[3, 1, 2, 4, 5, 6]
+[2, 1, 3, 4, 5, 6]
+[1, 2, 3, 4, 5, 6]
+Path Cost: 5
+Max queue size: 912
+   
+   10294 function calls (10290 primitive calls) in 0.007 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.007    0.007 <string>:1(<module>)
+       18    0.000    0.000    0.000    0.000 cp1252.py:18(encode)
+        2    0.000    0.000    0.000    0.000 enum.py:289(__call__)
+        1    0.000    0.000    0.000    0.000 enum.py:357(__iter__)
+       10    0.000    0.000    0.000    0.000 enum.py:358(<genexpr>)
+        2    0.000    0.000    0.000    0.000 enum.py:580(__new__)
+        9    0.000    0.000    0.000    0.000 enum.py:683(value)
+        1    0.000    0.000    0.000    0.000 enum.py:809(_missing_)
+        1    0.000    0.000    0.000    0.000 enum.py:816(_create_pseudo_member_)
+        1    0.000    0.000    0.000    0.000 enum.py:852(__and__)
+        1    0.000    0.000    0.000    0.000 enum.py:888(_decompose)
+        1    0.002    0.002    0.007    0.007 pancake.py:118(bfs)
+        7    0.000    0.000    0.000    0.000 pancake.py:127(<genexpr>)
+        1    0.000    0.000    0.007    0.007 pancake.py:21(main)
+        1    0.000    0.000    0.000    0.000 pancake.py:213(print_path)
+        1    0.000    0.000    0.000    0.000 pancake.py:214(<listcomp>)
+      436    0.000    0.000    0.001    0.000 pancake.py:42(possible_actions)
+      436    0.000    0.000    0.000    0.000 pancake.py:46(<listcomp>)
+     2185    0.001    0.000    0.001    0.000 pancake.py:55(result)
+      436    0.000    0.000    0.002    0.000 pancake.py:65(expand)
+      436    0.001    0.000    0.001    0.000 pancake.py:69(<listcomp>)
+        1    0.000    0.000    0.000    0.000 re.py:233(findall)
+        1    0.000    0.000    0.000    0.000 re.py:289(_compile)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:249(_compile_charset)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:276(_optimize_charset)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:423(_simple)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:453(_get_iscased)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:461(_get_literal_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:492(_get_charset_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:536(_compile_info)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:595(isstring)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:598(_code)
+      2/1    0.000    0.000    0.000    0.000 sre_compile.py:71(_compile)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:759(compile)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:111(__init__)
+        4    0.000    0.000    0.000    0.000 sre_parse.py:160(__len__)
+        8    0.000    0.000    0.000    0.000 sre_parse.py:164(__getitem__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:168(__setitem__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:172(append)
+      2/1    0.000    0.000    0.000    0.000 sre_parse.py:174(getwidth)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:224(__init__)
+        3    0.000    0.000    0.000    0.000 sre_parse.py:233(__next)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:249(match)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:254(get)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:286(tell)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:355(_escape)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:435(_parse_sub)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:493(_parse)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:76(__init__)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:81(groups)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:921(fix_flags)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:937(parse)
+        9    0.000    0.000    0.000    0.000 types.py:171(__get__)
+        1    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFCB1655C60}
+       18    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
+        1    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+        1    0.000    0.000    0.007    0.007 {built-in method builtins.exec}
+       17    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+2205/2203    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        5    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+        9    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+      672    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+       19    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'findall' of 're.Pattern' objects}
+        2    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+     2181    0.002    0.000    0.002    0.000 {method 'join' of 'str' objects}
+      437    0.000    0.000    0.000    0.000 {method 'popleft' of 'collections.deque' objects}
+        1    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'sort' of 'list' objects}
+      672    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+
+
+A* Non-Adjacent Pairs: Stack 0
+flip:3 flip:5 flip:4 flip:3 flip:2
+[1, 3, 5, 2, 4, 6]
+[5, 3, 1, 2, 4, 6]
+[4, 2, 1, 3, 5, 6]
+[3, 1, 2, 4, 5, 6]
+[2, 1, 3, 4, 5, 6]
+[1, 2, 3, 4, 5, 6]
+Path Cost: 5
+Max queue size: 33
+   
+   695 function calls (691 primitive calls) in 0.000 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
+       16    0.000    0.000    0.000    0.000 cp1252.py:18(encode)
+        2    0.000    0.000    0.000    0.000 enum.py:289(__call__)
+        1    0.000    0.000    0.000    0.000 enum.py:357(__iter__)
+       10    0.000    0.000    0.000    0.000 enum.py:358(<genexpr>)
+        2    0.000    0.000    0.000    0.000 enum.py:580(__new__)
+        9    0.000    0.000    0.000    0.000 enum.py:683(value)
+        1    0.000    0.000    0.000    0.000 enum.py:809(_missing_)
+        1    0.000    0.000    0.000    0.000 enum.py:816(_create_pseudo_member_)
+        1    0.000    0.000    0.000    0.000 enum.py:852(__and__)
+        1    0.000    0.000    0.000    0.000 enum.py:888(_decompose)
+        1    0.000    0.000    0.000    0.000 pancake.py:167(a_star)
+       41    0.000    0.000    0.000    0.000 pancake.py:199(non_adjacent_pairs)
+        1    0.000    0.000    0.000    0.000 pancake.py:21(main)
+        1    0.000    0.000    0.000    0.000 pancake.py:213(print_path)
+        1    0.000    0.000    0.000    0.000 pancake.py:214(<listcomp>)
+        8    0.000    0.000    0.000    0.000 pancake.py:42(possible_actions)
+        8    0.000    0.000    0.000    0.000 pancake.py:46(<listcomp>)
+       45    0.000    0.000    0.000    0.000 pancake.py:55(result)
+        8    0.000    0.000    0.000    0.000 pancake.py:65(expand)
+        8    0.000    0.000    0.000    0.000 pancake.py:69(<listcomp>)
+        1    0.000    0.000    0.000    0.000 re.py:233(findall)
+        1    0.000    0.000    0.000    0.000 re.py:289(_compile)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:249(_compile_charset)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:276(_optimize_charset)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:423(_simple)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:453(_get_iscased)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:461(_get_literal_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:492(_get_charset_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:536(_compile_info)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:595(isstring)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:598(_code)
+      2/1    0.000    0.000    0.000    0.000 sre_compile.py:71(_compile)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:759(compile)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:111(__init__)
+        4    0.000    0.000    0.000    0.000 sre_parse.py:160(__len__)
+        8    0.000    0.000    0.000    0.000 sre_parse.py:164(__getitem__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:168(__setitem__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:172(append)
+      2/1    0.000    0.000    0.000    0.000 sre_parse.py:174(getwidth)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:224(__init__)
+        3    0.000    0.000    0.000    0.000 sre_parse.py:233(__next)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:249(match)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:254(get)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:286(tell)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:355(_escape)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:435(_parse_sub)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:493(_parse)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:76(__init__)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:81(groups)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:921(fix_flags)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:937(parse)
+        9    0.000    0.000    0.000    0.000 types.py:171(__get__)
+        1    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFCD7675C60}
+       16    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
+        9    0.000    0.000    0.000    0.000 {built-in method _heapq.heappop}
+       41    0.000    0.000    0.000    0.000 {built-in method _heapq.heappush}
+        1    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+      205    0.000    0.000    0.000    0.000 {built-in method builtins.abs}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.exec}
+       17    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+    96/94    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        5    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+        8    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+       19    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+       40    0.000    0.000    0.000    0.000 {method 'count' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'findall' of 're.Pattern' objects}
+        2    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'sort' of 'list' objects}
+
+
+A* Uniform Cost: Stack 0
+flip:3 flip:5 flip:4 flip:3 flip:2
+[1, 3, 5, 2, 4, 6]
+[5, 3, 1, 2, 4, 6]
+[4, 2, 1, 3, 5, 6]
+[3, 1, 2, 4, 5, 6]
+[2, 1, 3, 4, 5, 6]
+[1, 2, 3, 4, 5, 6]
+Path Cost: 5
+Max queue size: 7345
+   
+   53461 function calls (53457 primitive calls) in 0.030 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.030    0.030 <string>:1(<module>)
+       16    0.000    0.000    0.000    0.000 cp1252.py:18(encode)
+        2    0.000    0.000    0.000    0.000 enum.py:289(__call__)
+        1    0.000    0.000    0.000    0.000 enum.py:357(__iter__)
+       10    0.000    0.000    0.000    0.000 enum.py:358(<genexpr>)
+        2    0.000    0.000    0.000    0.000 enum.py:580(__new__)
+        9    0.000    0.000    0.000    0.000 enum.py:683(value)
+        1    0.000    0.000    0.000    0.000 enum.py:809(_missing_)
+        1    0.000    0.000    0.000    0.000 enum.py:816(_create_pseudo_member_)
+        1    0.000    0.000    0.000    0.000 enum.py:852(__and__)
+        1    0.000    0.000    0.000    0.000 enum.py:888(_decompose)
+        1    0.012    0.012    0.029    0.029 pancake.py:167(a_star)
+     9181    0.001    0.000    0.001    0.000 pancake.py:191(uniform_cost)
+        1    0.001    0.001    0.030    0.030 pancake.py:21(main)
+        1    0.000    0.000    0.000    0.000 pancake.py:213(print_path)
+        1    0.000    0.000    0.000    0.000 pancake.py:214(<listcomp>)
+     1836    0.001    0.000    0.003    0.000 pancake.py:42(possible_actions)
+     1836    0.002    0.000    0.002    0.000 pancake.py:46(<listcomp>)
+     9185    0.004    0.000    0.004    0.000 pancake.py:55(result)
+     1836    0.001    0.000    0.007    0.000 pancake.py:65(expand)
+     1836    0.002    0.000    0.006    0.000 pancake.py:69(<listcomp>)
+        1    0.000    0.000    0.000    0.000 re.py:233(findall)
+        1    0.000    0.000    0.000    0.000 re.py:289(_compile)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:249(_compile_charset)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:276(_optimize_charset)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:423(_simple)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:453(_get_iscased)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:461(_get_literal_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:492(_get_charset_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:536(_compile_info)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:595(isstring)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:598(_code)
+      2/1    0.000    0.000    0.000    0.000 sre_compile.py:71(_compile)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:759(compile)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:111(__init__)
+        4    0.000    0.000    0.000    0.000 sre_parse.py:160(__len__)
+        8    0.000    0.000    0.000    0.000 sre_parse.py:164(__getitem__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:168(__setitem__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:172(append)
+      2/1    0.000    0.000    0.000    0.000 sre_parse.py:174(getwidth)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:224(__init__)
+        3    0.000    0.000    0.000    0.000 sre_parse.py:233(__next)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:249(match)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:254(get)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:286(tell)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:355(_escape)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:435(_parse_sub)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:493(_parse)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:76(__init__)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:81(groups)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:921(fix_flags)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:937(parse)
+        9    0.000    0.000    0.000    0.000 types.py:171(__get__)
+        1    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFCB08B5C60}
+       16    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
+     1837    0.002    0.000    0.002    0.000 {built-in method _heapq.heappop}
+     9181    0.002    0.000    0.002    0.000 {built-in method _heapq.heappush}
+        1    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+        1    0.000    0.000    0.030    0.030 {built-in method builtins.exec}
+       17    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+7367/7365    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+        5    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+        8    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+       19    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+     9180    0.002    0.000    0.002    0.000 {method 'count' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'findall' of 're.Pattern' objects}
+        2    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'sort' of 'list' objects}
+
+
+BFS: Stack 1
+flip:3 flip:8 flip:2 flip:4 flip:3 flip:6 flip:8
+[8, 2, 1, 7, 5, 4, 6, 3, 9, 10]
+[1, 2, 8, 7, 5, 4, 6, 3, 9, 10]
+[3, 6, 4, 5, 7, 8, 2, 1, 9, 10]
+[6, 3, 4, 5, 7, 8, 2, 1, 9, 10]
+[5, 4, 3, 6, 7, 8, 2, 1, 9, 10]
+[3, 4, 5, 6, 7, 8, 2, 1, 9, 10]
+[8, 7, 6, 5, 4, 3, 2, 1, 9, 10]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Path Cost: 7
+Max queue size: 1353164
+   
+   8126186 function calls (8126182 primitive calls) in 8.403 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    8.403    8.403 <string>:1(<module>)
+       22    0.000    0.000    0.000    0.000 cp1252.py:18(encode)
+        2    0.000    0.000    0.000    0.000 enum.py:289(__call__)
+        1    0.000    0.000    0.000    0.000 enum.py:357(__iter__)
+       10    0.000    0.000    0.000    0.000 enum.py:358(<genexpr>)
+        2    0.000    0.000    0.000    0.000 enum.py:580(__new__)
+        9    0.000    0.000    0.000    0.000 enum.py:683(value)
+        1    0.000    0.000    0.000    0.000 enum.py:809(_missing_)
+        1    0.000    0.000    0.000    0.000 enum.py:816(_create_pseudo_member_)
+        1    0.000    0.000    0.000    0.000 enum.py:852(__and__)
+        1    0.000    0.000    0.000    0.000 enum.py:888(_decompose)
+        1    2.823    2.823    8.335    8.335 pancake.py:118(bfs)
+       11    0.000    0.000    0.000    0.000 pancake.py:127(<genexpr>)
+        1    0.069    0.069    8.403    8.403 pancake.py:21(main)
+        1    0.000    0.000    0.000    0.000 pancake.py:213(print_path)
+        1    0.000    0.000    0.000    0.000 pancake.py:214(<listcomp>)
+   233544    0.138    0.000    0.532    0.000 pancake.py:42(possible_actions)
+   233544    0.376    0.000    0.376    0.000 pancake.py:46(<listcomp>)
+  2101903    1.030    0.000    1.030    0.000 pancake.py:55(result)
+   233544    0.157    0.000    1.641    0.000 pancake.py:65(expand)
+   233544    0.438    0.000    1.467    0.000 pancake.py:69(<listcomp>)
+        1    0.000    0.000    0.000    0.000 re.py:233(findall)
+        1    0.000    0.000    0.000    0.000 re.py:289(_compile)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:249(_compile_charset)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:276(_optimize_charset)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:423(_simple)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:453(_get_iscased)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:461(_get_literal_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:492(_get_charset_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:536(_compile_info)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:595(isstring)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:598(_code)
+      2/1    0.000    0.000    0.000    0.000 sre_compile.py:71(_compile)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:759(compile)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:111(__init__)
+        4    0.000    0.000    0.000    0.000 sre_parse.py:160(__len__)
+        8    0.000    0.000    0.000    0.000 sre_parse.py:164(__getitem__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:168(__setitem__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:172(append)
+      2/1    0.000    0.000    0.000    0.000 sre_parse.py:174(getwidth)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:224(__init__)
+        3    0.000    0.000    0.000    0.000 sre_parse.py:233(__next)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:249(match)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:254(get)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:286(tell)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:355(_escape)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:435(_parse_sub)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:493(_parse)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:76(__init__)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:81(groups)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:921(fix_flags)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:937(parse)
+        9    0.000    0.000    0.000    0.000 types.py:171(__get__)
+        1    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFCB1655C60}
+       22    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
+        1    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+        1    0.000    0.000    8.403    8.403 {built-in method builtins.exec}
+       17    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+1167745/1167743    0.102    0.000    0.102    0.000 {built-in method builtins.len}
+        5    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+       11    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+   793354    0.079    0.000    0.079    0.000 {method 'append' of 'collections.deque' objects}
+       19    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'findall' of 're.Pattern' objects}
+        2    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+  2101897    3.004    0.000    3.004    0.000 {method 'join' of 'str' objects}
+   233545    0.024    0.000    0.024    0.000 {method 'popleft' of 'collections.deque' objects}
+        1    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'sort' of 'list' objects}
+   793354    0.165    0.000    0.165    0.000 {method 'update' of 'dict' objects}
+
+
+BFS: Stack 2
+flip:3 flip:5 flip:9 flip:6 flip:4 flip:10 flip:7 flip:5 flip:2 flip:9
+[9, 5, 2, 8, 4, 1, 10, 6, 7, 3]
+[2, 5, 9, 8, 4, 1, 10, 6, 7, 3]
+[4, 8, 9, 5, 2, 1, 10, 6, 7, 3]
+[7, 6, 10, 1, 2, 5, 9, 8, 4, 3]
+[5, 2, 1, 10, 6, 7, 9, 8, 4, 3]
+[10, 1, 2, 5, 6, 7, 9, 8, 4, 3]
+[3, 4, 8, 9, 7, 6, 5, 2, 1, 10]
+[5, 6, 7, 9, 8, 4, 3, 2, 1, 10]
+[8, 9, 7, 6, 5, 4, 3, 2, 1, 10]
+[9, 8, 7, 6, 5, 4, 3, 2, 1, 10]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Path Cost: 10
+Max queue size: 4418912
+   
+   93621128 function calls (93621124 primitive calls) in 96.953 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   96.953   96.953 <string>:1(<module>)
+       28    0.000    0.000    0.000    0.000 cp1252.py:18(encode)
+        2    0.000    0.000    0.000    0.000 enum.py:289(__call__)
+        1    0.000    0.000    0.000    0.000 enum.py:357(__iter__)
+       10    0.000    0.000    0.000    0.000 enum.py:358(<genexpr>)
+        2    0.000    0.000    0.000    0.000 enum.py:580(__new__)
+        9    0.000    0.000    0.000    0.000 enum.py:683(value)
+        1    0.000    0.000    0.000    0.000 enum.py:809(_missing_)
+        1    0.000    0.000    0.000    0.000 enum.py:816(_create_pseudo_member_)
+        1    0.000    0.000    0.000    0.000 enum.py:852(__and__)
+        1    0.000    0.000    0.000    0.000 enum.py:888(_decompose)
+        1   29.498   29.498   96.793   96.793 pancake.py:118(bfs)
+       11    0.000    0.000    0.000    0.000 pancake.py:127(<genexpr>)
+        1    0.160    0.160   96.953   96.953 pancake.py:21(main)
+        1    0.000    0.000    0.000    0.000 pancake.py:213(print_path)
+        1    0.000    0.000    0.000    0.000 pancake.py:214(<listcomp>)
+  3085245    1.801    0.000    6.842    0.000 pancake.py:42(possible_actions)
+  3085245    4.809    0.000    4.809    0.000 pancake.py:46(<listcomp>)
+ 27767215    9.986    0.000    9.986    0.000 pancake.py:55(result)
+  3085245    2.021    0.000   18.030    0.000 pancake.py:65(expand)
+  3085245    5.802    0.000   15.788    0.000 pancake.py:69(<listcomp>)
+        1    0.000    0.000    0.000    0.000 re.py:233(findall)
+        1    0.000    0.000    0.000    0.000 re.py:289(_compile)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:249(_compile_charset)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:276(_optimize_charset)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:423(_simple)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:453(_get_iscased)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:461(_get_literal_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:492(_get_charset_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:536(_compile_info)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:595(isstring)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:598(_code)
+      2/1    0.000    0.000    0.000    0.000 sre_compile.py:71(_compile)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:759(compile)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:111(__init__)
+        4    0.000    0.000    0.000    0.000 sre_parse.py:160(__len__)
+        8    0.000    0.000    0.000    0.000 sre_parse.py:164(__getitem__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:168(__setitem__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:172(append)
+      2/1    0.000    0.000    0.000    0.000 sre_parse.py:174(getwidth)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:224(__init__)
+        3    0.000    0.000    0.000    0.000 sre_parse.py:233(__next)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:249(match)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:254(get)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:286(tell)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:355(_escape)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:435(_parse_sub)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:493(_parse)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:76(__init__)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:81(groups)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:921(fix_flags)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:937(parse)
+        9    0.000    0.000    0.000    0.000 types.py:171(__get__)
+        1    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFCB1655C60}
+       28    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
+        1    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+        1    0.000    0.000   96.953   96.953 {built-in method builtins.exec}
+       17    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+15426250/15426248    1.319    0.000    1.319    0.000 {built-in method builtins.len}
+        5    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+       14    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+  3617002    0.375    0.000    0.375    0.000 {method 'append' of 'collections.deque' objects}
+       19    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'findall' of 're.Pattern' objects}
+        2    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+ 27767206   40.043    0.000   40.043    0.000 {method 'join' of 'str' objects}
+  3085246    0.314    0.000    0.314    0.000 {method 'popleft' of 'collections.deque' objects}
+        1    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'sort' of 'list' objects}
+  3617002    0.824    0.000    0.824    0.000 {method 'update' of 'dict' objects}
+
+
+BFS: Stack 3
+flip:8 flip:3 flip:7 flip:3 flip:5 flip:4 flip:10 flip:9 flip:8
+[2, 8, 10, 5, 7, 3, 4, 6, 1, 9]
+[6, 4, 3, 7, 5, 10, 8, 2, 1, 9]
+[3, 4, 6, 7, 5, 10, 8, 2, 1, 9]
+[8, 10, 5, 7, 6, 4, 3, 2, 1, 9]
+[5, 10, 8, 7, 6, 4, 3, 2, 1, 9]
+[6, 7, 8, 10, 5, 4, 3, 2, 1, 9]
+[10, 8, 7, 6, 5, 4, 3, 2, 1, 9]
+[9, 1, 2, 3, 4, 5, 6, 7, 8, 10]
+[8, 7, 6, 5, 4, 3, 2, 1, 9, 10]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Path Cost: 9
+Max queue size: 4418912
+   
+   78257826 function calls (78257822 primitive calls) in 82.871 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   82.871   82.871 <string>:1(<module>)
+       26    0.000    0.000    0.000    0.000 cp1252.py:18(encode)
+        2    0.000    0.000    0.000    0.000 enum.py:289(__call__)
+        1    0.000    0.000    0.000    0.000 enum.py:357(__iter__)
+       10    0.000    0.000    0.000    0.000 enum.py:358(<genexpr>)
+        2    0.000    0.000    0.000    0.000 enum.py:580(__new__)
+        9    0.000    0.000    0.000    0.000 enum.py:683(value)
+        1    0.000    0.000    0.000    0.000 enum.py:809(_missing_)
+        1    0.000    0.000    0.000    0.000 enum.py:816(_create_pseudo_member_)
+        1    0.000    0.000    0.000    0.000 enum.py:852(__and__)
+        1    0.000    0.000    0.000    0.000 enum.py:888(_decompose)
+        1   25.918   25.918   82.683   82.683 pancake.py:118(bfs)
+       11    0.000    0.000    0.000    0.000 pancake.py:127(<genexpr>)
+        1    0.189    0.189   82.871   82.871 pancake.py:21(main)
+        1    0.000    0.000    0.000    0.000 pancake.py:213(print_path)
+        1    0.000    0.000    0.000    0.000 pancake.py:214(<listcomp>)
+  2546563    1.516    0.000    5.725    0.000 pancake.py:42(possible_actions)
+  2546563    4.015    0.000    4.015    0.000 pancake.py:46(<listcomp>)
+ 22919076    8.485    0.000    8.485    0.000 pancake.py:55(result)
+  2546563    1.718    0.000   15.258    0.000 pancake.py:65(expand)
+  2546563    4.870    0.000   13.355    0.000 pancake.py:69(<listcomp>)
+        1    0.000    0.000    0.000    0.000 re.py:233(findall)
+        1    0.000    0.000    0.000    0.000 re.py:289(_compile)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:249(_compile_charset)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:276(_optimize_charset)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:423(_simple)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:453(_get_iscased)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:461(_get_literal_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:492(_get_charset_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:536(_compile_info)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:595(isstring)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:598(_code)
+      2/1    0.000    0.000    0.000    0.000 sre_compile.py:71(_compile)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:759(compile)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:111(__init__)
+        4    0.000    0.000    0.000    0.000 sre_parse.py:160(__len__)
+        8    0.000    0.000    0.000    0.000 sre_parse.py:164(__getitem__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:168(__setitem__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:172(append)
+      2/1    0.000    0.000    0.000    0.000 sre_parse.py:174(getwidth)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:224(__init__)
+        3    0.000    0.000    0.000    0.000 sre_parse.py:233(__next)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:249(match)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:254(get)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:286(tell)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:355(_escape)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:435(_parse_sub)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:493(_parse)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:76(__init__)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:81(groups)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:921(fix_flags)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:937(parse)
+        9    0.000    0.000    0.000    0.000 types.py:171(__get__)
+        1    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFF529D5C60}
+       26    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
+        1    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+        1    0.000    0.000   82.871   82.871 {built-in method builtins.exec}
+       17    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+12732840/12732838    1.097    0.000    1.097    0.000 {built-in method builtins.len}
+        5    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+       13    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+  3476902    0.356    0.000    0.356    0.000 {method 'append' of 'collections.deque' objects}
+       19    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'findall' of 're.Pattern' objects}
+        2    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+ 22919068   33.632    0.000   33.632    0.000 {method 'join' of 'str' objects}
+  2546564    0.262    0.000    0.262    0.000 {method 'popleft' of 'collections.deque' objects}
+        1    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'sort' of 'list' objects}
+  3476902    0.813    0.000    0.813    0.000 {method 'update' of 'dict' objects}
+
+
+BFS: Stack 4
+flip:3 flip:9 flip:3 flip:7 flip:5 flip:4 flip:10 flip:9 flip:7 flip:6
+[3, 6, 8, 10, 7, 1, 5, 4, 2, 9]
+[8, 6, 3, 10, 7, 1, 5, 4, 2, 9]
+[2, 4, 5, 1, 7, 10, 3, 6, 8, 9]
+[5, 4, 2, 1, 7, 10, 3, 6, 8, 9]
+[3, 10, 7, 1, 2, 4, 5, 6, 8, 9]
+[2, 1, 7, 10, 3, 4, 5, 6, 8, 9]
+[10, 7, 1, 2, 3, 4, 5, 6, 8, 9]
+[9, 8, 6, 5, 4, 3, 2, 1, 7, 10]
+[7, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+[6, 5, 4, 3, 2, 1, 7, 8, 9, 10]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Path Cost: 10
+Max queue size: 4418912
+   
+   95650562 function calls (95650558 primitive calls) in 97.936 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   97.936   97.936 <string>:1(<module>)
+       28    0.000    0.000    0.000    0.000 cp1252.py:18(encode)
+        2    0.000    0.000    0.000    0.000 enum.py:289(__call__)
+        1    0.000    0.000    0.000    0.000 enum.py:357(__iter__)
+       10    0.000    0.000    0.000    0.000 enum.py:358(<genexpr>)
+        2    0.000    0.000    0.000    0.000 enum.py:580(__new__)
+        9    0.000    0.000    0.000    0.000 enum.py:683(value)
+        1    0.000    0.000    0.000    0.000 enum.py:809(_missing_)
+        1    0.000    0.000    0.000    0.000 enum.py:816(_create_pseudo_member_)
+        1    0.000    0.000    0.000    0.000 enum.py:852(__and__)
+        1    0.000    0.000    0.000    0.000 enum.py:888(_decompose)
+        1   29.657   29.657   97.782   97.782 pancake.py:118(bfs)
+       11    0.000    0.000    0.000    0.000 pancake.py:127(<genexpr>)
+        1    0.153    0.153   97.936   97.936 pancake.py:21(main)
+        1    0.000    0.000    0.000    0.000 pancake.py:213(print_path)
+        1    0.000    0.000    0.000    0.000 pancake.py:214(<listcomp>)
+  3157340    1.819    0.000    6.915    0.000 pancake.py:42(possible_actions)
+  3157340    4.858    0.000    4.858    0.000 pancake.py:46(<listcomp>)
+ 28416070   10.045    0.000   10.045    0.000 pancake.py:55(result)
+  3157340    2.035    0.000   18.138    0.000 pancake.py:65(expand)
+  3157340    5.832    0.000   15.877    0.000 pancake.py:69(<listcomp>)
+        1    0.000    0.000    0.000    0.000 re.py:233(findall)
+        1    0.000    0.000    0.000    0.000 re.py:289(_compile)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:249(_compile_charset)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:276(_optimize_charset)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:423(_simple)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:453(_get_iscased)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:461(_get_literal_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:492(_get_charset_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:536(_compile_info)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:595(isstring)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:598(_code)
+      2/1    0.000    0.000    0.000    0.000 sre_compile.py:71(_compile)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:759(compile)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:111(__init__)
+        4    0.000    0.000    0.000    0.000 sre_parse.py:160(__len__)
+        8    0.000    0.000    0.000    0.000 sre_parse.py:164(__getitem__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:168(__setitem__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:172(append)
+      2/1    0.000    0.000    0.000    0.000 sre_parse.py:174(getwidth)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:224(__init__)
+        3    0.000    0.000    0.000    0.000 sre_parse.py:233(__next)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:249(match)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:254(get)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:286(tell)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:355(_escape)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:435(_parse_sub)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:493(_parse)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:76(__init__)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:81(groups)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:921(fix_flags)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:937(parse)
+        9    0.000    0.000    0.000    0.000 types.py:171(__get__)
+        1    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFF52BE5C60}
+       28    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
+        1    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+        1    0.000    0.000   97.936   97.936 {built-in method builtins.exec}
+       17    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+15786725/15786723    1.322    0.000    1.322    0.000 {built-in method builtins.len}
+        5    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+       14    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+  3622389    0.368    0.000    0.368    0.000 {method 'append' of 'collections.deque' objects}
+       19    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'findall' of 're.Pattern' objects}
+        2    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+ 28416061   40.711    0.000   40.711    0.000 {method 'join' of 'str' objects}
+  3157341    0.311    0.000    0.311    0.000 {method 'popleft' of 'collections.deque' objects}
+        1    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'sort' of 'list' objects}
+  3622389    0.823    0.000    0.823    0.000 {method 'update' of 'dict' objects}
+
+
+BFS: Stack 5
+flip:7 flip:2 flip:4 flip:5 flip:9 flip:10 flip:7 flip:9 flip:7
+[6, 9, 4, 8, 1, 3, 2, 7, 10, 5]
+[2, 3, 1, 8, 4, 9, 6, 7, 10, 5]
+[3, 2, 1, 8, 4, 9, 6, 7, 10, 5]
+[8, 1, 2, 3, 4, 9, 6, 7, 10, 5]
+[4, 3, 2, 1, 8, 9, 6, 7, 10, 5]
+[10, 7, 6, 9, 8, 1, 2, 3, 4, 5]
+[5, 4, 3, 2, 1, 8, 9, 6, 7, 10]
+[9, 8, 1, 2, 3, 4, 5, 6, 7, 10]
+[7, 6, 5, 4, 3, 2, 1, 8, 9, 10]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Path Cost: 9
+Max queue size: 4418912
+   
+   74969316 function calls (74969312 primitive calls) in 79.637 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   79.637   79.637 <string>:1(<module>)
+       26    0.000    0.000    0.000    0.000 cp1252.py:18(encode)
+        2    0.000    0.000    0.000    0.000 enum.py:289(__call__)
+        1    0.000    0.000    0.000    0.000 enum.py:357(__iter__)
+       10    0.000    0.000    0.000    0.000 enum.py:358(<genexpr>)
+        2    0.000    0.000    0.000    0.000 enum.py:580(__new__)
+        9    0.000    0.000    0.000    0.000 enum.py:683(value)
+        1    0.000    0.000    0.000    0.000 enum.py:809(_missing_)
+        1    0.000    0.000    0.000    0.000 enum.py:816(_create_pseudo_member_)
+        1    0.000    0.000    0.000    0.000 enum.py:852(__and__)
+        1    0.000    0.000    0.000    0.000 enum.py:888(_decompose)
+        1   25.064   25.064   79.450   79.450 pancake.py:118(bfs)
+       11    0.000    0.000    0.000    0.000 pancake.py:127(<genexpr>)
+        1    0.187    0.187   79.637   79.637 pancake.py:21(main)
+        1    0.000    0.000    0.000    0.000 pancake.py:213(print_path)
+        1    0.000    0.000    0.000    0.000 pancake.py:214(<listcomp>)
+  2432948    1.467    0.000    5.549    0.000 pancake.py:42(possible_actions)
+  2432948    3.893    0.000    3.893    0.000 pancake.py:46(<listcomp>)
+ 21896541    8.287    0.000    8.287    0.000 pancake.py:55(result)
+  2432948    1.661    0.000   14.920    0.000 pancake.py:65(expand)
+  2432948    4.795    0.000   13.081    0.000 pancake.py:69(<listcomp>)
+        1    0.000    0.000    0.000    0.000 re.py:233(findall)
+        1    0.000    0.000    0.000    0.000 re.py:289(_compile)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:249(_compile_charset)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:276(_optimize_charset)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:423(_simple)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:453(_get_iscased)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:461(_get_literal_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:492(_get_charset_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:536(_compile_info)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:595(isstring)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:598(_code)
+      2/1    0.000    0.000    0.000    0.000 sre_compile.py:71(_compile)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:759(compile)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:111(__init__)
+        4    0.000    0.000    0.000    0.000 sre_parse.py:160(__len__)
+        8    0.000    0.000    0.000    0.000 sre_parse.py:164(__getitem__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:168(__setitem__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:172(append)
+      2/1    0.000    0.000    0.000    0.000 sre_parse.py:174(getwidth)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:224(__init__)
+        3    0.000    0.000    0.000    0.000 sre_parse.py:233(__next)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:249(match)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:254(get)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:286(tell)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:355(_escape)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:435(_parse_sub)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:493(_parse)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:76(__init__)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:81(groups)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:921(fix_flags)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:937(parse)
+        9    0.000    0.000    0.000    0.000 types.py:171(__get__)
+        1    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFF52BE5C60}
+       26    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
+        1    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+        1    0.000    0.000   79.637   79.637 {built-in method builtins.exec}
+       17    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+12164765/12164763    1.047    0.000    1.047    0.000 {built-in method builtins.len}
+        5    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+       13    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+  3423257    0.351    0.000    0.351    0.000 {method 'append' of 'collections.deque' objects}
+       19    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'findall' of 're.Pattern' objects}
+        2    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+ 21896533   31.849    0.000   31.849    0.000 {method 'join' of 'str' objects}
+  2432949    0.245    0.000    0.245    0.000 {method 'popleft' of 'collections.deque' objects}
+        1    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'sort' of 'list' objects}
+  3423257    0.790    0.000    0.790    0.000 {method 'update' of 'dict' objects}
+
+
+BFS: Stack 6
+flip:3 flip:5 flip:8 flip:4 flip:10 flip:4 flip:5 flip:8 flip:4 flip:6
+[8, 5, 10, 6, 2, 9, 3, 4, 1, 7]
+[10, 5, 8, 6, 2, 9, 3, 4, 1, 7]
+[2, 6, 8, 5, 10, 9, 3, 4, 1, 7]
+[4, 3, 9, 10, 5, 8, 6, 2, 1, 7]
+[10, 9, 3, 4, 5, 8, 6, 2, 1, 7]
+[7, 1, 2, 6, 8, 5, 4, 3, 9, 10]
+[6, 2, 1, 7, 8, 5, 4, 3, 9, 10]
+[8, 7, 1, 2, 6, 5, 4, 3, 9, 10]
+[3, 4, 5, 6, 2, 1, 7, 8, 9, 10]
+[6, 5, 4, 3, 2, 1, 7, 8, 9, 10]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Path Cost: 10
+Max queue size: 4418912
+   
+   93504884 function calls (93504880 primitive calls) in 97.766 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   97.766   97.766 <string>:1(<module>)
+       28    0.000    0.000    0.000    0.000 cp1252.py:18(encode)
+        2    0.000    0.000    0.000    0.000 enum.py:289(__call__)
+        1    0.000    0.000    0.000    0.000 enum.py:357(__iter__)
+       10    0.000    0.000    0.000    0.000 enum.py:358(<genexpr>)
+        2    0.000    0.000    0.000    0.000 enum.py:580(__new__)
+        9    0.000    0.000    0.000    0.000 enum.py:683(value)
+        1    0.000    0.000    0.000    0.000 enum.py:809(_missing_)
+        1    0.000    0.000    0.000    0.000 enum.py:816(_create_pseudo_member_)
+        1    0.000    0.000    0.000    0.000 enum.py:852(__and__)
+        1    0.000    0.000    0.000    0.000 enum.py:888(_decompose)
+        1   30.097   30.097   97.603   97.603 pancake.py:118(bfs)
+       11    0.000    0.000    0.000    0.000 pancake.py:127(<genexpr>)
+        1    0.163    0.163   97.766   97.766 pancake.py:21(main)
+        1    0.000    0.000    0.000    0.000 pancake.py:213(print_path)
+        1    0.000    0.000    0.000    0.000 pancake.py:214(<listcomp>)
+  3081120    1.824    0.000    6.884    0.000 pancake.py:42(possible_actions)
+  3081120    4.821    0.000    4.821    0.000 pancake.py:46(<listcomp>)
+ 27730090   10.145    0.000   10.145    0.000 pancake.py:55(result)
+  3081120    2.071    0.000   18.334    0.000 pancake.py:65(expand)
+  3081120    5.894    0.000   16.039    0.000 pancake.py:69(<listcomp>)
+        1    0.000    0.000    0.000    0.000 re.py:233(findall)
+        1    0.000    0.000    0.000    0.000 re.py:289(_compile)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:249(_compile_charset)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:276(_optimize_charset)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:423(_simple)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:453(_get_iscased)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:461(_get_literal_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:492(_get_charset_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:536(_compile_info)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:595(isstring)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:598(_code)
+      2/1    0.000    0.000    0.000    0.000 sre_compile.py:71(_compile)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:759(compile)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:111(__init__)
+        4    0.000    0.000    0.000    0.000 sre_parse.py:160(__len__)
+        8    0.000    0.000    0.000    0.000 sre_parse.py:164(__getitem__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:168(__setitem__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:172(append)
+      2/1    0.000    0.000    0.000    0.000 sre_parse.py:174(getwidth)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:224(__init__)
+        3    0.000    0.000    0.000    0.000 sre_parse.py:233(__next)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:249(match)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:254(get)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:286(tell)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:355(_escape)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:435(_parse_sub)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:493(_parse)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:76(__init__)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:81(groups)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:921(fix_flags)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:937(parse)
+        9    0.000    0.000    0.000    0.000 types.py:171(__get__)
+        1    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFF934D5C60}
+       28    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
+        1    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+        1    0.000    0.000   97.766   97.766 {built-in method builtins.exec}
+       17    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+15405625/15405623    1.318    0.000    1.318    0.000 {built-in method builtins.len}
+        5    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+       14    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+  3616630    0.375    0.000    0.375    0.000 {method 'append' of 'collections.deque' objects}
+       19    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'findall' of 're.Pattern' objects}
+        2    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+ 27730081   39.910    0.000   39.910    0.000 {method 'join' of 'str' objects}
+  3081121    0.310    0.000    0.310    0.000 {method 'popleft' of 'collections.deque' objects}
+        1    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'sort' of 'list' objects}
+  3616630    0.839    0.000    0.839    0.000 {method 'update' of 'dict' objects}
+
+
+BFS: Stack 7
+flip:3 flip:10 flip:4 flip:5 flip:7 flip:5 flip:8 flip:6 flip:2 flip:7 flip:9
+[8, 1, 10, 5, 3, 7, 4, 9, 2, 6]
+[10, 1, 8, 5, 3, 7, 4, 9, 2, 6]
+[6, 2, 9, 4, 7, 3, 5, 8, 1, 10]
+[4, 9, 2, 6, 7, 3, 5, 8, 1, 10]
+[7, 6, 2, 9, 4, 3, 5, 8, 1, 10]
+[5, 3, 4, 9, 2, 6, 7, 8, 1, 10]
+[2, 9, 4, 3, 5, 6, 7, 8, 1, 10]
+[8, 7, 6, 5, 3, 4, 9, 2, 1, 10]
+[4, 3, 5, 6, 7, 8, 9, 2, 1, 10]
+[3, 4, 5, 6, 7, 8, 9, 2, 1, 10]
+[9, 8, 7, 6, 5, 4, 3, 2, 1, 10]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Path Cost: 11
+Max queue size: 4418912
+   
+   108716122 function calls (108716118 primitive calls) in 113.744 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000  113.744  113.744 <string>:1(<module>)
+       30    0.000    0.000    0.000    0.000 cp1252.py:18(encode)
+        2    0.000    0.000    0.000    0.000 enum.py:289(__call__)
+        1    0.000    0.000    0.000    0.000 enum.py:357(__iter__)
+       10    0.000    0.000    0.000    0.000 enum.py:358(<genexpr>)
+        2    0.000    0.000    0.000    0.000 enum.py:580(__new__)
+        9    0.000    0.000    0.000    0.000 enum.py:683(value)
+        1    0.000    0.000    0.000    0.000 enum.py:809(_missing_)
+        1    0.000    0.000    0.000    0.000 enum.py:816(_create_pseudo_member_)
+        1    0.000    0.000    0.000    0.000 enum.py:852(__and__)
+        1    0.000    0.000    0.000    0.000 enum.py:888(_decompose)
+        1   34.136   34.136  113.636  113.636 pancake.py:118(bfs)
+       11    0.000    0.000    0.000    0.000 pancake.py:127(<genexpr>)
+        1    0.108    0.108  113.744  113.744 pancake.py:21(main)
+        1    0.000    0.000    0.000    0.000 pancake.py:213(print_path)
+        1    0.000    0.000    0.000    0.000 pancake.py:214(<listcomp>)
+  3623509    2.148    0.000    8.024    0.000 pancake.py:42(possible_actions)
+  3623509    5.593    0.000    5.593    0.000 pancake.py:46(<listcomp>)
+ 32611592   11.652    0.000   11.652    0.000 pancake.py:55(result)
+  3623509    2.429    0.000   21.271    0.000 pancake.py:65(expand)
+  3623509    6.919    0.000   18.571    0.000 pancake.py:69(<listcomp>)
+        1    0.000    0.000    0.000    0.000 re.py:233(findall)
+        1    0.000    0.000    0.000    0.000 re.py:289(_compile)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:249(_compile_charset)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:276(_optimize_charset)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:423(_simple)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:453(_get_iscased)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:461(_get_literal_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:492(_get_charset_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:536(_compile_info)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:595(isstring)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:598(_code)
+      2/1    0.000    0.000    0.000    0.000 sre_compile.py:71(_compile)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:759(compile)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:111(__init__)
+        4    0.000    0.000    0.000    0.000 sre_parse.py:160(__len__)
+        8    0.000    0.000    0.000    0.000 sre_parse.py:164(__getitem__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:168(__setitem__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:172(append)
+      2/1    0.000    0.000    0.000    0.000 sre_parse.py:174(getwidth)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:224(__init__)
+        3    0.000    0.000    0.000    0.000 sre_parse.py:233(__next)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:249(match)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:254(get)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:286(tell)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:355(_escape)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:435(_parse_sub)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:493(_parse)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:76(__init__)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:81(groups)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:921(fix_flags)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:937(parse)
+        9    0.000    0.000    0.000    0.000 types.py:171(__get__)
+        1    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFF934D5C60}
+       30    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
+        1    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+        1    0.000    0.000  113.744  113.744 {built-in method builtins.exec}
+       17    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+18117570/18117568    1.568    0.000    1.568    0.000 {built-in method builtins.len}
+        5    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+       15    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+  3628800    0.382    0.000    0.382    0.000 {method 'append' of 'collections.deque' objects}
+       19    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'findall' of 're.Pattern' objects}
+        2    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+ 32611582   47.572    0.000   47.572    0.000 {method 'join' of 'str' objects}
+  3623510    0.371    0.000    0.371    0.000 {method 'popleft' of 'collections.deque' objects}
+        1    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'sort' of 'list' objects}
+  3628800    0.865    0.000    0.865    0.000 {method 'update' of 'dict' objects}
+
+
+A* Non-Adjacent Pairs: Stack 1
+flip:8 flip:2 flip:4 flip:3 flip:5 flip:7 flip:2
+[8, 2, 1, 7, 5, 4, 6, 3, 9, 10]
+[3, 6, 4, 5, 7, 1, 2, 8, 9, 10]
+[6, 3, 4, 5, 7, 1, 2, 8, 9, 10]
+[5, 4, 3, 6, 7, 1, 2, 8, 9, 10]
+[3, 4, 5, 6, 7, 1, 2, 8, 9, 10]
+[7, 6, 5, 4, 3, 1, 2, 8, 9, 10]
+[2, 1, 3, 4, 5, 6, 7, 8, 9, 10]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Path Cost: 7
+Max queue size: 537
+   
+   9290 function calls (9286 primitive calls) in 0.004 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.004    0.004 <string>:1(<module>)
+       22    0.000    0.000    0.000    0.000 cp1252.py:18(encode)
+        2    0.000    0.000    0.000    0.000 enum.py:289(__call__)
+        1    0.000    0.000    0.000    0.000 enum.py:357(__iter__)
+       10    0.000    0.000    0.000    0.000 enum.py:358(<genexpr>)
+        2    0.000    0.000    0.000    0.000 enum.py:580(__new__)
+        9    0.000    0.000    0.000    0.000 enum.py:683(value)
+        1    0.000    0.000    0.000    0.000 enum.py:809(_missing_)
+        1    0.000    0.000    0.000    0.000 enum.py:816(_create_pseudo_member_)
+        1    0.000    0.000    0.000    0.000 enum.py:852(__and__)
+        1    0.000    0.000    0.000    0.000 enum.py:888(_decompose)
+        1    0.001    0.001    0.003    0.003 pancake.py:167(a_star)
+      604    0.001    0.000    0.002    0.000 pancake.py:199(non_adjacent_pairs)
+        1    0.000    0.000    0.004    0.004 pancake.py:21(main)
+        1    0.000    0.000    0.000    0.000 pancake.py:213(print_path)
+        1    0.000    0.000    0.000    0.000 pancake.py:214(<listcomp>)
+       67    0.000    0.000    0.000    0.000 pancake.py:42(possible_actions)
+       67    0.000    0.000    0.000    0.000 pancake.py:46(<listcomp>)
+      610    0.000    0.000    0.000    0.000 pancake.py:55(result)
+       67    0.000    0.000    0.000    0.000 pancake.py:65(expand)
+       67    0.000    0.000    0.000    0.000 pancake.py:69(<listcomp>)
+        1    0.000    0.000    0.000    0.000 re.py:233(findall)
+        1    0.000    0.000    0.000    0.000 re.py:289(_compile)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:249(_compile_charset)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:276(_optimize_charset)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:423(_simple)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:453(_get_iscased)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:461(_get_literal_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:492(_get_charset_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:536(_compile_info)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:595(isstring)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:598(_code)
+      2/1    0.000    0.000    0.000    0.000 sre_compile.py:71(_compile)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:759(compile)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:111(__init__)
+        4    0.000    0.000    0.000    0.000 sre_parse.py:160(__len__)
+        8    0.000    0.000    0.000    0.000 sre_parse.py:164(__getitem__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:168(__setitem__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:172(append)
+      2/1    0.000    0.000    0.000    0.000 sre_parse.py:174(getwidth)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:224(__init__)
+        3    0.000    0.000    0.000    0.000 sre_parse.py:233(__next)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:249(match)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:254(get)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:286(tell)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:355(_escape)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:435(_parse_sub)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:493(_parse)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:76(__init__)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:81(groups)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:921(fix_flags)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:937(parse)
+        9    0.000    0.000    0.000    0.000 types.py:171(__get__)
+        1    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFF48655C60}
+       22    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
+       68    0.000    0.000    0.000    0.000 {built-in method _heapq.heappop}
+      604    0.000    0.000    0.000    0.000 {built-in method _heapq.heappush}
+        1    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+     5436    0.000    0.000    0.000    0.000 {built-in method builtins.abs}
+        1    0.000    0.000    0.004    0.004 {built-in method builtins.exec}
+       17    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+  896/894    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        5    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+       11    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+       19    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+      603    0.000    0.000    0.000    0.000 {method 'count' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'findall' of 're.Pattern' objects}
+        2    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'sort' of 'list' objects}
+
+
+A* Non-Adjacent Pairs: Stack 2
+flip:6 flip:3 flip:5 flip:7 flip:9 flip:6 flip:3 flip:9 flip:10 flip:3
+[9, 5, 2, 8, 4, 1, 10, 6, 7, 3]
+[1, 4, 8, 2, 5, 9, 10, 6, 7, 3]
+[8, 4, 1, 2, 5, 9, 10, 6, 7, 3]
+[5, 2, 1, 4, 8, 9, 10, 6, 7, 3]
+[10, 9, 8, 4, 1, 2, 5, 6, 7, 3]
+[7, 6, 5, 2, 1, 4, 8, 9, 10, 3]
+[4, 1, 2, 5, 6, 7, 8, 9, 10, 3]
+[2, 1, 4, 5, 6, 7, 8, 9, 10, 3]
+[10, 9, 8, 7, 6, 5, 4, 1, 2, 3]
+[3, 2, 1, 4, 5, 6, 7, 8, 9, 10]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Path Cost: 10
+Max queue size: 22393
+   
+   378128 function calls (378124 primitive calls) in 0.148 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.148    0.148 <string>:1(<module>)
+       28    0.000    0.000    0.000    0.000 cp1252.py:18(encode)
+        2    0.000    0.000    0.000    0.000 enum.py:289(__call__)
+        1    0.000    0.000    0.000    0.000 enum.py:357(__iter__)
+       10    0.000    0.000    0.000    0.000 enum.py:358(<genexpr>)
+        2    0.000    0.000    0.000    0.000 enum.py:580(__new__)
+        9    0.000    0.000    0.000    0.000 enum.py:683(value)
+        1    0.000    0.000    0.000    0.000 enum.py:809(_missing_)
+        1    0.000    0.000    0.000    0.000 enum.py:816(_create_pseudo_member_)
+        1    0.000    0.000    0.000    0.000 enum.py:852(__and__)
+        1    0.000    0.000    0.000    0.000 enum.py:888(_decompose)
+        1    0.036    0.036    0.143    0.143 pancake.py:167(a_star)
+    25192    0.049    0.000    0.067    0.000 pancake.py:199(non_adjacent_pairs)
+        1    0.004    0.004    0.148    0.148 pancake.py:21(main)
+        1    0.000    0.000    0.000    0.000 pancake.py:213(print_path)
+        1    0.000    0.000    0.000    0.000 pancake.py:214(<listcomp>)
+     2799    0.002    0.000    0.007    0.000 pancake.py:42(possible_actions)
+     2799    0.005    0.000    0.005    0.000 pancake.py:46(<listcomp>)
+    25201    0.011    0.000    0.011    0.000 pancake.py:55(result)
+     2799    0.002    0.000    0.019    0.000 pancake.py:65(expand)
+     2799    0.005    0.000    0.017    0.000 pancake.py:69(<listcomp>)
+        1    0.000    0.000    0.000    0.000 re.py:233(findall)
+        1    0.000    0.000    0.000    0.000 re.py:289(_compile)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:249(_compile_charset)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:276(_optimize_charset)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:423(_simple)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:453(_get_iscased)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:461(_get_literal_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:492(_get_charset_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:536(_compile_info)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:595(isstring)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:598(_code)
+      2/1    0.000    0.000    0.000    0.000 sre_compile.py:71(_compile)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:759(compile)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:111(__init__)
+        4    0.000    0.000    0.000    0.000 sre_parse.py:160(__len__)
+        8    0.000    0.000    0.000    0.000 sre_parse.py:164(__getitem__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:168(__setitem__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:172(append)
+      2/1    0.000    0.000    0.000    0.000 sre_parse.py:174(getwidth)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:224(__init__)
+        3    0.000    0.000    0.000    0.000 sre_parse.py:233(__next)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:249(match)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:254(get)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:286(tell)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:355(_escape)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:435(_parse_sub)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:493(_parse)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:76(__init__)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:81(groups)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:921(fix_flags)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:937(parse)
+        9    0.000    0.000    0.000    0.000 types.py:171(__get__)
+        1    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFF48655C60}
+       28    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
+     2800    0.004    0.000    0.004    0.000 {built-in method _heapq.heappop}
+    25192    0.006    0.000    0.006    0.000 {built-in method _heapq.heappush}
+        1    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+   226728    0.016    0.000    0.016    0.000 {built-in method builtins.abs}
+        1    0.000    0.000    0.148    0.148 {built-in method builtins.exec}
+       17    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+36412/36410    0.003    0.000    0.003    0.000 {built-in method builtins.len}
+        5    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+       14    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+       19    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+    25191    0.004    0.000    0.004    0.000 {method 'count' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'findall' of 're.Pattern' objects}
+        2    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'sort' of 'list' objects}
+
+
+A* Non-Adjacent Pairs: Stack 3
+flip:8 flip:3 flip:7 flip:3 flip:5 flip:4 flip:10 flip:9 flip:8
+[2, 8, 10, 5, 7, 3, 4, 6, 1, 9]
+[6, 4, 3, 7, 5, 10, 8, 2, 1, 9]
+[3, 4, 6, 7, 5, 10, 8, 2, 1, 9]
+[8, 10, 5, 7, 6, 4, 3, 2, 1, 9]
+[5, 10, 8, 7, 6, 4, 3, 2, 1, 9]
+[6, 7, 8, 10, 5, 4, 3, 2, 1, 9]
+[10, 8, 7, 6, 5, 4, 3, 2, 1, 9]
+[9, 1, 2, 3, 4, 5, 6, 7, 8, 10]
+[8, 7, 6, 5, 4, 3, 2, 1, 9, 10]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Path Cost: 9
+Max queue size: 2081
+   
+   35357 function calls (35353 primitive calls) in 0.014 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.014    0.014 <string>:1(<module>)
+       26    0.000    0.000    0.000    0.000 cp1252.py:18(encode)
+        2    0.000    0.000    0.000    0.000 enum.py:289(__call__)
+        1    0.000    0.000    0.000    0.000 enum.py:357(__iter__)
+       10    0.000    0.000    0.000    0.000 enum.py:358(<genexpr>)
+        2    0.000    0.000    0.000    0.000 enum.py:580(__new__)
+        9    0.000    0.000    0.000    0.000 enum.py:683(value)
+        1    0.000    0.000    0.000    0.000 enum.py:809(_missing_)
+        1    0.000    0.000    0.000    0.000 enum.py:816(_create_pseudo_member_)
+        1    0.000    0.000    0.000    0.000 enum.py:852(__and__)
+        1    0.000    0.000    0.000    0.000 enum.py:888(_decompose)
+        1    0.003    0.003    0.013    0.013 pancake.py:167(a_star)
+     2341    0.005    0.000    0.007    0.000 pancake.py:199(non_adjacent_pairs)
+        1    0.000    0.000    0.014    0.014 pancake.py:21(main)
+        1    0.000    0.000    0.000    0.000 pancake.py:213(print_path)
+        1    0.000    0.000    0.000    0.000 pancake.py:214(<listcomp>)
+      260    0.000    0.000    0.001    0.000 pancake.py:42(possible_actions)
+      260    0.000    0.000    0.000    0.000 pancake.py:46(<listcomp>)
+     2349    0.001    0.000    0.001    0.000 pancake.py:55(result)
+      260    0.000    0.000    0.002    0.000 pancake.py:65(expand)
+      260    0.001    0.000    0.002    0.000 pancake.py:69(<listcomp>)
+        1    0.000    0.000    0.000    0.000 re.py:233(findall)
+        1    0.000    0.000    0.000    0.000 re.py:289(_compile)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:249(_compile_charset)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:276(_optimize_charset)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:423(_simple)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:453(_get_iscased)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:461(_get_literal_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:492(_get_charset_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:536(_compile_info)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:595(isstring)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:598(_code)
+      2/1    0.000    0.000    0.000    0.000 sre_compile.py:71(_compile)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:759(compile)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:111(__init__)
+        4    0.000    0.000    0.000    0.000 sre_parse.py:160(__len__)
+        8    0.000    0.000    0.000    0.000 sre_parse.py:164(__getitem__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:168(__setitem__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:172(append)
+      2/1    0.000    0.000    0.000    0.000 sre_parse.py:174(getwidth)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:224(__init__)
+        3    0.000    0.000    0.000    0.000 sre_parse.py:233(__next)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:249(match)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:254(get)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:286(tell)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:355(_escape)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:435(_parse_sub)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:493(_parse)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:76(__init__)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:81(groups)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:921(fix_flags)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:937(parse)
+        9    0.000    0.000    0.000    0.000 types.py:171(__get__)
+        1    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFF48655C60}
+       26    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
+      261    0.000    0.000    0.000    0.000 {built-in method _heapq.heappop}
+     2341    0.001    0.000    0.001    0.000 {built-in method _heapq.heappush}
+        1    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+    21069    0.002    0.000    0.002    0.000 {built-in method builtins.abs}
+        1    0.000    0.000    0.014    0.014 {built-in method builtins.exec}
+       17    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+3405/3403    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        5    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+       13    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+       19    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+     2340    0.000    0.000    0.000    0.000 {method 'count' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'findall' of 're.Pattern' objects}
+        2    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'sort' of 'list' objects}
+
+
+A* Non-Adjacent Pairs: Stack 4
+flip:8 flip:7 flip:5 flip:10 flip:7 flip:6 flip:9 flip:4 flip:3 flip:10
+[3, 6, 8, 10, 7, 1, 5, 4, 2, 9]
+[4, 5, 1, 7, 10, 8, 6, 3, 2, 9]
+[6, 8, 10, 7, 1, 5, 4, 3, 2, 9]
+[1, 7, 10, 8, 6, 5, 4, 3, 2, 9]
+[9, 2, 3, 4, 5, 6, 8, 10, 7, 1]
+[8, 6, 5, 4, 3, 2, 9, 10, 7, 1]
+[2, 3, 4, 5, 6, 8, 9, 10, 7, 1]
+[7, 10, 9, 8, 6, 5, 4, 3, 2, 1]
+[8, 9, 10, 7, 6, 5, 4, 3, 2, 1]
+[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Path Cost: 10
+Max queue size: 11361
+   
+   191963 function calls (191959 primitive calls) in 0.072 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.072    0.072 <string>:1(<module>)
+       28    0.000    0.000    0.000    0.000 cp1252.py:18(encode)
+        2    0.000    0.000    0.000    0.000 enum.py:289(__call__)
+        1    0.000    0.000    0.000    0.000 enum.py:357(__iter__)
+       10    0.000    0.000    0.000    0.000 enum.py:358(<genexpr>)
+        2    0.000    0.000    0.000    0.000 enum.py:580(__new__)
+        9    0.000    0.000    0.000    0.000 enum.py:683(value)
+        1    0.000    0.000    0.000    0.000 enum.py:809(_missing_)
+        1    0.000    0.000    0.000    0.000 enum.py:816(_create_pseudo_member_)
+        1    0.000    0.000    0.000    0.000 enum.py:852(__and__)
+        1    0.000    0.000    0.000    0.000 enum.py:888(_decompose)
+        1    0.016    0.016    0.070    0.070 pancake.py:167(a_star)
+    12781    0.025    0.000    0.034    0.000 pancake.py:199(non_adjacent_pairs)
+        1    0.002    0.002    0.072    0.072 pancake.py:21(main)
+        1    0.000    0.000    0.000    0.000 pancake.py:213(print_path)
+        1    0.000    0.000    0.000    0.000 pancake.py:214(<listcomp>)
+     1420    0.001    0.000    0.003    0.000 pancake.py:42(possible_actions)
+     1420    0.002    0.000    0.002    0.000 pancake.py:46(<listcomp>)
+    12790    0.006    0.000    0.006    0.000 pancake.py:55(result)
+     1420    0.001    0.000    0.009    0.000 pancake.py:65(expand)
+     1420    0.003    0.000    0.008    0.000 pancake.py:69(<listcomp>)
+        1    0.000    0.000    0.000    0.000 re.py:233(findall)
+        1    0.000    0.000    0.000    0.000 re.py:289(_compile)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:249(_compile_charset)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:276(_optimize_charset)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:423(_simple)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:453(_get_iscased)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:461(_get_literal_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:492(_get_charset_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:536(_compile_info)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:595(isstring)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:598(_code)
+      2/1    0.000    0.000    0.000    0.000 sre_compile.py:71(_compile)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:759(compile)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:111(__init__)
+        4    0.000    0.000    0.000    0.000 sre_parse.py:160(__len__)
+        8    0.000    0.000    0.000    0.000 sre_parse.py:164(__getitem__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:168(__setitem__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:172(append)
+      2/1    0.000    0.000    0.000    0.000 sre_parse.py:174(getwidth)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:224(__init__)
+        3    0.000    0.000    0.000    0.000 sre_parse.py:233(__next)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:249(match)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:254(get)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:286(tell)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:355(_escape)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:435(_parse_sub)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:493(_parse)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:76(__init__)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:81(groups)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:921(fix_flags)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:937(parse)
+        9    0.000    0.000    0.000    0.000 types.py:171(__get__)
+        1    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFF48655C60}
+       28    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
+     1421    0.002    0.000    0.002    0.000 {built-in method _heapq.heappop}
+    12781    0.003    0.000    0.003    0.000 {built-in method _heapq.heappush}
+        1    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+   115029    0.008    0.000    0.008    0.000 {built-in method builtins.abs}
+        1    0.000    0.000    0.072    0.072 {built-in method builtins.exec}
+       17    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+18485/18483    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+        5    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+       14    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+       19    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+    12780    0.002    0.000    0.002    0.000 {method 'count' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'findall' of 're.Pattern' objects}
+        2    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'sort' of 'list' objects}
+
+
+A* Non-Adjacent Pairs: Stack 5
+flip:7 flip:2 flip:4 flip:5 flip:9 flip:10 flip:7 flip:9 flip:7
+[6, 9, 4, 8, 1, 3, 2, 7, 10, 5]
+[2, 3, 1, 8, 4, 9, 6, 7, 10, 5]
+[3, 2, 1, 8, 4, 9, 6, 7, 10, 5]
+[8, 1, 2, 3, 4, 9, 6, 7, 10, 5]
+[4, 3, 2, 1, 8, 9, 6, 7, 10, 5]
+[10, 7, 6, 9, 8, 1, 2, 3, 4, 5]
+[5, 4, 3, 2, 1, 8, 9, 6, 7, 10]
+[9, 8, 1, 2, 3, 4, 5, 6, 7, 10]
+[7, 6, 5, 4, 3, 2, 1, 8, 9, 10]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Path Cost: 9
+Max queue size: 1633
+   
+   27797 function calls (27793 primitive calls) in 0.010 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.010    0.010 <string>:1(<module>)
+       26    0.000    0.000    0.000    0.000 cp1252.py:18(encode)
+        2    0.000    0.000    0.000    0.000 enum.py:289(__call__)
+        1    0.000    0.000    0.000    0.000 enum.py:357(__iter__)
+       10    0.000    0.000    0.000    0.000 enum.py:358(<genexpr>)
+        2    0.000    0.000    0.000    0.000 enum.py:580(__new__)
+        9    0.000    0.000    0.000    0.000 enum.py:683(value)
+        1    0.000    0.000    0.000    0.000 enum.py:809(_missing_)
+        1    0.000    0.000    0.000    0.000 enum.py:816(_create_pseudo_member_)
+        1    0.000    0.000    0.000    0.000 enum.py:852(__and__)
+        1    0.000    0.000    0.000    0.000 enum.py:888(_decompose)
+        1    0.002    0.002    0.010    0.010 pancake.py:167(a_star)
+     1837    0.004    0.000    0.005    0.000 pancake.py:199(non_adjacent_pairs)
+        1    0.000    0.000    0.010    0.010 pancake.py:21(main)
+        1    0.000    0.000    0.000    0.000 pancake.py:213(print_path)
+        1    0.000    0.000    0.000    0.000 pancake.py:214(<listcomp>)
+      204    0.000    0.000    0.001    0.000 pancake.py:42(possible_actions)
+      204    0.000    0.000    0.000    0.000 pancake.py:46(<listcomp>)
+     1845    0.001    0.000    0.001    0.000 pancake.py:55(result)
+      204    0.000    0.000    0.001    0.000 pancake.py:65(expand)
+      204    0.000    0.000    0.001    0.000 pancake.py:69(<listcomp>)
+        1    0.000    0.000    0.000    0.000 re.py:233(findall)
+        1    0.000    0.000    0.000    0.000 re.py:289(_compile)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:249(_compile_charset)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:276(_optimize_charset)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:423(_simple)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:453(_get_iscased)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:461(_get_literal_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:492(_get_charset_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:536(_compile_info)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:595(isstring)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:598(_code)
+      2/1    0.000    0.000    0.000    0.000 sre_compile.py:71(_compile)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:759(compile)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:111(__init__)
+        4    0.000    0.000    0.000    0.000 sre_parse.py:160(__len__)
+        8    0.000    0.000    0.000    0.000 sre_parse.py:164(__getitem__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:168(__setitem__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:172(append)
+      2/1    0.000    0.000    0.000    0.000 sre_parse.py:174(getwidth)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:224(__init__)
+        3    0.000    0.000    0.000    0.000 sre_parse.py:233(__next)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:249(match)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:254(get)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:286(tell)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:355(_escape)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:435(_parse_sub)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:493(_parse)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:76(__init__)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:81(groups)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:921(fix_flags)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:937(parse)
+        9    0.000    0.000    0.000    0.000 types.py:171(__get__)
+        1    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFF48655C60}
+       26    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
+      205    0.000    0.000    0.000    0.000 {built-in method _heapq.heappop}
+     1837    0.000    0.000    0.000    0.000 {built-in method _heapq.heappush}
+        1    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+    16533    0.001    0.000    0.001    0.000 {built-in method builtins.abs}
+        1    0.000    0.000    0.010    0.010 {built-in method builtins.exec}
+       17    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+2677/2675    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        5    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+       13    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+       19    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+     1836    0.000    0.000    0.000    0.000 {method 'count' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'findall' of 're.Pattern' objects}
+        2    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'sort' of 'list' objects}
+
+
+A* Non-Adjacent Pairs: Stack 6
+flip:5 flip:8 flip:4 flip:9 flip:10 flip:7 flip:4 flip:8 flip:5 flip:10
+[8, 5, 10, 6, 2, 9, 3, 4, 1, 7]
+[2, 6, 10, 5, 8, 9, 3, 4, 1, 7]
+[4, 3, 9, 8, 5, 10, 6, 2, 1, 7]
+[8, 9, 3, 4, 5, 10, 6, 2, 1, 7]
+[1, 2, 6, 10, 5, 4, 3, 9, 8, 7]
+[7, 8, 9, 3, 4, 5, 10, 6, 2, 1]
+[10, 5, 4, 3, 9, 8, 7, 6, 2, 1]
+[3, 4, 5, 10, 9, 8, 7, 6, 2, 1]
+[6, 7, 8, 9, 10, 5, 4, 3, 2, 1]
+[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Path Cost: 10
+Max queue size: 12737
+   
+   215183 function calls (215179 primitive calls) in 0.083 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.083    0.083 <string>:1(<module>)
+       28    0.000    0.000    0.000    0.000 cp1252.py:18(encode)
+        2    0.000    0.000    0.000    0.000 enum.py:289(__call__)
+        1    0.000    0.000    0.000    0.000 enum.py:357(__iter__)
+       10    0.000    0.000    0.000    0.000 enum.py:358(<genexpr>)
+        2    0.000    0.000    0.000    0.000 enum.py:580(__new__)
+        9    0.000    0.000    0.000    0.000 enum.py:683(value)
+        1    0.000    0.000    0.000    0.000 enum.py:809(_missing_)
+        1    0.000    0.000    0.000    0.000 enum.py:816(_create_pseudo_member_)
+        1    0.000    0.000    0.000    0.000 enum.py:852(__and__)
+        1    0.000    0.000    0.000    0.000 enum.py:888(_decompose)
+        1    0.018    0.018    0.081    0.081 pancake.py:167(a_star)
+    14329    0.029    0.000    0.040    0.000 pancake.py:199(non_adjacent_pairs)
+        1    0.002    0.002    0.083    0.083 pancake.py:21(main)
+        1    0.000    0.000    0.000    0.000 pancake.py:213(print_path)
+        1    0.000    0.000    0.000    0.000 pancake.py:214(<listcomp>)
+     1592    0.001    0.000    0.004    0.000 pancake.py:42(possible_actions)
+     1592    0.003    0.000    0.003    0.000 pancake.py:46(<listcomp>)
+    14338    0.006    0.000    0.006    0.000 pancake.py:55(result)
+     1592    0.001    0.000    0.011    0.000 pancake.py:65(expand)
+     1592    0.003    0.000    0.009    0.000 pancake.py:69(<listcomp>)
+        1    0.000    0.000    0.000    0.000 re.py:233(findall)
+        1    0.000    0.000    0.000    0.000 re.py:289(_compile)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:249(_compile_charset)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:276(_optimize_charset)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:423(_simple)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:453(_get_iscased)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:461(_get_literal_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:492(_get_charset_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:536(_compile_info)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:595(isstring)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:598(_code)
+      2/1    0.000    0.000    0.000    0.000 sre_compile.py:71(_compile)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:759(compile)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:111(__init__)
+        4    0.000    0.000    0.000    0.000 sre_parse.py:160(__len__)
+        8    0.000    0.000    0.000    0.000 sre_parse.py:164(__getitem__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:168(__setitem__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:172(append)
+      2/1    0.000    0.000    0.000    0.000 sre_parse.py:174(getwidth)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:224(__init__)
+        3    0.000    0.000    0.000    0.000 sre_parse.py:233(__next)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:249(match)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:254(get)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:286(tell)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:355(_escape)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:435(_parse_sub)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:493(_parse)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:76(__init__)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:81(groups)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:921(fix_flags)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:937(parse)
+        9    0.000    0.000    0.000    0.000 types.py:171(__get__)
+        1    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFF48655C60}
+       28    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
+     1593    0.002    0.000    0.002    0.000 {built-in method _heapq.heappop}
+    14329    0.003    0.000    0.003    0.000 {built-in method _heapq.heappush}
+        1    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+   128961    0.010    0.000    0.010    0.000 {built-in method builtins.abs}
+        1    0.000    0.000    0.083    0.083 {built-in method builtins.exec}
+       17    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+20721/20719    0.002    0.000    0.002    0.000 {built-in method builtins.len}
+        5    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+       14    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+       19    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+    14328    0.003    0.000    0.003    0.000 {method 'count' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'findall' of 're.Pattern' objects}
+        2    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'sort' of 'list' objects}
+
+
+A* Non-Adjacent Pairs: Stack 7
+flip:5 flip:6 flip:9 flip:6 flip:4 flip:2 flip:5 flip:7 flip:10 flip:5 flip:10
+[8, 1, 10, 5, 3, 7, 4, 9, 2, 6]
+[3, 5, 10, 1, 8, 7, 4, 9, 2, 6]
+[7, 8, 1, 10, 5, 3, 4, 9, 2, 6]
+[2, 9, 4, 3, 5, 10, 1, 8, 7, 6]
+[10, 5, 3, 4, 9, 2, 1, 8, 7, 6]
+[4, 3, 5, 10, 9, 2, 1, 8, 7, 6]
+[3, 4, 5, 10, 9, 2, 1, 8, 7, 6]
+[9, 10, 5, 4, 3, 2, 1, 8, 7, 6]
+[1, 2, 3, 4, 5, 10, 9, 8, 7, 6]
+[6, 7, 8, 9, 10, 5, 4, 3, 2, 1]
+[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Path Cost: 11
+Max queue size: 20225
+   
+   341549 function calls (341545 primitive calls) in 0.129 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.129    0.129 <string>:1(<module>)
+       30    0.000    0.000    0.000    0.000 cp1252.py:18(encode)
+        2    0.000    0.000    0.000    0.000 enum.py:289(__call__)
+        1    0.000    0.000    0.000    0.000 enum.py:357(__iter__)
+       10    0.000    0.000    0.000    0.000 enum.py:358(<genexpr>)
+        2    0.000    0.000    0.000    0.000 enum.py:580(__new__)
+        9    0.000    0.000    0.000    0.000 enum.py:683(value)
+        1    0.000    0.000    0.000    0.000 enum.py:809(_missing_)
+        1    0.000    0.000    0.000    0.000 enum.py:816(_create_pseudo_member_)
+        1    0.000    0.000    0.000    0.000 enum.py:852(__and__)
+        1    0.000    0.000    0.000    0.000 enum.py:888(_decompose)
+        1    0.028    0.028    0.125    0.125 pancake.py:167(a_star)
+    22753    0.045    0.000    0.061    0.000 pancake.py:199(non_adjacent_pairs)
+        1    0.004    0.004    0.129    0.129 pancake.py:21(main)
+        1    0.000    0.000    0.000    0.000 pancake.py:213(print_path)
+        1    0.000    0.000    0.000    0.000 pancake.py:214(<listcomp>)
+     2528    0.002    0.000    0.006    0.000 pancake.py:42(possible_actions)
+     2528    0.004    0.000    0.004    0.000 pancake.py:46(<listcomp>)
+    22763    0.010    0.000    0.010    0.000 pancake.py:55(result)
+     2528    0.002    0.000    0.017    0.000 pancake.py:65(expand)
+     2528    0.005    0.000    0.015    0.000 pancake.py:69(<listcomp>)
+        1    0.000    0.000    0.000    0.000 re.py:233(findall)
+        1    0.000    0.000    0.000    0.000 re.py:289(_compile)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:249(_compile_charset)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:276(_optimize_charset)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:423(_simple)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:453(_get_iscased)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:461(_get_literal_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:492(_get_charset_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:536(_compile_info)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:595(isstring)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:598(_code)
+      2/1    0.000    0.000    0.000    0.000 sre_compile.py:71(_compile)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:759(compile)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:111(__init__)
+        4    0.000    0.000    0.000    0.000 sre_parse.py:160(__len__)
+        8    0.000    0.000    0.000    0.000 sre_parse.py:164(__getitem__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:168(__setitem__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:172(append)
+      2/1    0.000    0.000    0.000    0.000 sre_parse.py:174(getwidth)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:224(__init__)
+        3    0.000    0.000    0.000    0.000 sre_parse.py:233(__next)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:249(match)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:254(get)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:286(tell)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:355(_escape)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:435(_parse_sub)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:493(_parse)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:76(__init__)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:81(groups)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:921(fix_flags)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:937(parse)
+        9    0.000    0.000    0.000    0.000 types.py:171(__get__)
+        1    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFF52BE5C60}
+       30    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
+     2529    0.004    0.000    0.004    0.000 {built-in method _heapq.heappop}
+    22753    0.005    0.000    0.005    0.000 {built-in method _heapq.heappush}
+        1    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+   204777    0.014    0.000    0.014    0.000 {built-in method builtins.abs}
+        1    0.000    0.000    0.129    0.129 {built-in method builtins.exec}
+       17    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+32889/32887    0.002    0.000    0.002    0.000 {built-in method builtins.len}
+        5    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+       15    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+       19    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+    22752    0.004    0.000    0.004    0.000 {method 'count' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'findall' of 're.Pattern' objects}
+        2    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'sort' of 'list' objects}
+
+
