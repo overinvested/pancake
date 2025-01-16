@@ -67,7 +67,7 @@ function iterative_deepening_search(stack::Vector, depth_limit::Int, action::Str
     for (i,child) ∈ enumerate(expansion)
         actions = possible_actions(stack)
         if action != ""
-            action_str = action * " " * actions[i]
+            action_str = "$(action) $(actions[i])"
         else
             action_str = actions[i]
         end
@@ -92,7 +92,7 @@ function bfs(stack::Vector)
         actions = possible_actions(item[1])
         for (i,child) ∈ enumerate(expansion)
             if item[2] != ""
-                action_str = item[2] * " " * actions[i]
+                action_str = "$(item[2]) $(actions[i])"
             else
                 action_str = actions[i]
             end
@@ -117,7 +117,7 @@ function α(stack::Vector, γ::Function)
         for (i,child) ∈ enumerate(expansion)
             state_key += 1
             if item[2] != ""
-                action_str = item[2] * " " * actions[i]
+                action_str = "$(item[2]) $(actions[i])"
             else
                 action_str = actions[i]
             end
